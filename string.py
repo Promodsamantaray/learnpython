@@ -26,7 +26,7 @@ a = "Hello, World!"
 
 f = open("D:\\NPKey.txt", "r")
 g = open("D:\\myfile.css", "x")
-# print(f.read())
-# print(f.readline())
-# for x in f:
-#   print(x)
+print(f.read())
+print(f.readline())
+for x in f:
+  print(x)
